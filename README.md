@@ -1,7 +1,5 @@
 # bluez-hid2hci
-For laptops to recognize the bluetooth device in Void Linux.
-
-For Void Linux
+For laptops to recognize the bluetooth device in Void Linux:
 
 Bluez's dirvers itself wasn't enough for my laptop to recognize the bluetooth device. I discovered that I missed the "bluez-hid2hci" drivers 
 that is not available on Void Linux repositories. My source packages are Cent-OS and Fedora's "rpm" packages from their repositories. Firstly 
