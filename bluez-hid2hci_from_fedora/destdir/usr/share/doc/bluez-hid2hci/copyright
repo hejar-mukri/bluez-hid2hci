@@ -1,0 +1,42 @@
+This package was debianized by the alien program by converting
+a binary .rpm package on Thu, 07 Apr 2022 14:53:34 +0000
+
+Copyright: GPLv2+
+
+Information from the binary package:
+Name        : bluez-hid2hci
+Version     : 5.64
+Release     : 1.fc34
+Architecture: x86_64
+Install Date: (not installed)
+Group       : Unspecified
+Size        : 18462
+License     : GPLv2+
+Signature   : RSA/SHA256, Mon 21 Mar 2022 10:03:35 PM UTC, Key ID 1161ae6945719a39
+Source RPM  : bluez-5.64-1.fc34.src.rpm
+Build Date  : Mon 21 Mar 2022 09:51:09 PM UTC
+Build Host  : buildvm-x86-29.iad2.fedoraproject.org
+Packager    : Fedora Project
+Vendor      : Fedora Project
+URL         : http://www.bluez.org/
+Bug URL     : https://bugz.fedoraproject.org/bluez
+Summary     : Put HID proxying bluetooth HCI's into HCI mode
+Description :
+Most allinone PC's and bluetooth keyboard / mouse sets which include a
+bluetooth dongle, ship with a so called HID proxying bluetooth HCI.
+The HID proxying makes the keyboard / mouse show up as regular USB HID
+devices (after connecting using the connect button on the device + keyboard),
+which makes them work without requiring any manual configuration.
+
+The bluez-hid2hci package contains the hid2hci utility and udev rules to
+automatically switch supported Bluetooth devices into regular HCI mode.
+
+Install this package if you want to use the bluetooth function of the HCI
+with other bluetooth devices like for example a mobile phone.
+
+Note that after installing this package you will first need to pair your
+bluetooth keyboard and mouse with the bluetooth adapter before you can use
+them again. Since you cannot use your bluetooth keyboard and mouse until
+they are paired, this will require the use of a regular (wired) USB keyboard
+and mouse.
+

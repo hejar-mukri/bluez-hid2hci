@@ -1,0 +1,5 @@
+66ec2f1406f3fa0494f9b45fbd48004d  usr/lib/udev/hid2hci
+43ae292af42b1a4db3e1487407eb8de3  usr/lib/udev/rules.d/97-hid2hci.rules
+e0a808f881c7e1e56a7fe45b0632c98d  usr/share/doc/bluez-hid2hci/changelog.Debian.gz
+db759a95ae882e19437b06989e82c46a  usr/share/doc/bluez-hid2hci/copyright
+9fdf0aba3e2f487a9ded8035ccc111f2  usr/share/man/man1/hid2hci.1.gz
